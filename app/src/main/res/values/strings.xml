@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CoffeeFirst</string>
+    <string name="register_title">Регистрация</string>
+    <string name="login_title">Вход\n</string>
+    <string name="zoom_out">Уменьшить</string>
+    <string name="zoom_in">Увеличить</string>
+    <string name="qr_code">qr_code</string>
+    <string name="decrease_quantity">Уменьшить количество</string>
+    <string name="increase_quantity">Увеличить количество\n</string>
+    <string name="remove_item_from_cart">Удалить позицию из корзины</string>
+</resources>

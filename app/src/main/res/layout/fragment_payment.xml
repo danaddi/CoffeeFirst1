@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80000000">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/paymentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Оплата заказа"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#3E2723"/>
+
+            <TextView
+                android:id="@+id/paymentDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="Сумма: 0 ₽\nБонусы: +0"
+                android:textSize="16sp"
+                android:textColor="#3E2723"/>
+
+            <EditText
+                android:id="@+id/etUseBonus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Введите количество бонусов для списания"
+                android:layout_marginTop="16dp"
+                android:background="#F8F6F0"
+                android:padding="12dp"
+                android:textColor="#3E2723"
+                android:textSize="16sp"
+                android:backgroundTint="#F8F6F0"/>
+
+            <Button
+                android:id="@+id/buttonApplyBonus"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="Применить бонусы"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#00A693"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:stateListAnimator="@null"
+                android:background="@drawable/bg_button_emerald"
+                android:elevation="0dp"/>
+
+            <Button
+                android:id="@+id/buttonPay"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#00A693"
+                android:text="Оплатить"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:stateListAnimator="@null"
+                android:background="@drawable/bg_button_emerald"
+                android:elevation="0dp"/>
+
+            <Button
+                android:id="@+id/buttonCancel"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@android:color/transparent"
+                android:text="Отмена"
+                android:textAllCaps="false"
+                android:textColor="#00A693"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:stateListAnimator="@null"
+                android:elevation="0dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

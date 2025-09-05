@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "503371668234",
+    "project_id": "coffeefirst-f8fab",
+    "storage_bucket": "coffeefirst-f8fab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503371668234:android:129068e326bcea6eafb8f3",
+        "android_client_info": {
+          "package_name": "com.example.coffeefirst"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGtY4HbT8ehW0Hx2Orev16VqMV3o82cn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
